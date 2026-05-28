@@ -21,5 +21,6 @@ from .views import exchange_rates
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-   
+    path('api/exchange-rates/', exchange_rates, name='exchange_rates'),
+    
 ]
